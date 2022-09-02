@@ -1,9 +1,10 @@
 import "./App.css";
-import img from "./image.jpg";
+import Header from "./Components/Layout/Header";
+
 function App() {
   return (
     <div className="App">
-      <img src={img} className="main" />
+      <Header />
     </div>
   );
 }
