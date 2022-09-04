@@ -7,23 +7,13 @@
   background-color: rgb(40, 80, 155);
   justify-content: space-between;
   align-items: center;
-  color: azure;
+  color: rgb(237, 242, 253);
   height: 5rem;
   z-index: 10;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 .header h1 {
   margin-left: 2vh;
-}
-.header button {
-  width: 12vh;
-  height: 3rem;
-  margin-right: 2vh;
-  font-size: 2vh;
-  border-radius: 9vh;
-}
-.header span {
-  margin-right: 1vh;
 }
 .main-image {
   width: 100%;
@@ -35,5 +25,5 @@
   width: 110%;
   height: 100%;
   object-fit: cover;
-  transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+  transform: rotateZ(-4deg) translateY(-4rem) translateX(-1rem);
 }
